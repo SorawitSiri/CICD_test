@@ -9,7 +9,7 @@ jobs:
     container: 
       image: node
     steps:
-    - uses: actions/unit-test-gurusquare@v1
+    - uses: actions/checkout@v2
     - name: Run a one-line script | Sorawit
       run: echo Hello, world!
     - name: Run a multi-line script | Sorawit
