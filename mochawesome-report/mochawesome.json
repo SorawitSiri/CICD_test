@@ -1,0 +1,274 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-02-05T03:28:09.687Z",
+    "end": "2020-02-05T03:28:09.714Z",
+    "duration": 27,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "120eb796-af21-4779-915f-f7ad28ce5dd9",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2d4c983e-61b7-4f12-8ac3-35622646ee50",
+          "title": "Test Calculator",
+          "fullFile": "/workdir/CICD_test/test/test.js",
+          "file": "/test/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "360d3bf0-e746-45e2-9422-8a773eec1aa3",
+              "title": "functions plus",
+              "fullFile": "/workdir/CICD_test/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "1 + 1 should be 2",
+                  "fullTitle": "Test Calculator functions plus 1 + 1 should be 2",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(2, calculate.plus(1, 1))",
+                  "err": {},
+                  "uuid": "9dc3b3e8-096c-4453-aefd-42f7110cf8c0",
+                  "parentUUID": "360d3bf0-e746-45e2-9422-8a773eec1aa3",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9dc3b3e8-096c-4453-aefd-42f7110cf8c0"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 2,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "0cf9cf6f-e49a-458d-98bc-30e711239c3b",
+              "title": "functions minus",
+              "fullFile": "/workdir/CICD_test/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "1 - 1 should be 0",
+                  "fullTitle": "Test Calculator functions minus 1 - 1 should be 0",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(0, calculate.minus(1, 1))",
+                  "err": {},
+                  "uuid": "65e7a3af-2460-44bd-b66f-71ea9ce36c21",
+                  "parentUUID": "0cf9cf6f-e49a-458d-98bc-30e711239c3b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "65e7a3af-2460-44bd-b66f-71ea9ce36c21"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "f4708265-56e3-4cb4-92ba-f6d565d76e26",
+              "title": "functions multiply",
+              "fullFile": "/workdir/CICD_test/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "1 * 1 should be 1",
+                  "fullTitle": "Test Calculator functions multiply 1 * 1 should be 1",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(1, calculate.multiply(1, 1))",
+                  "err": {},
+                  "uuid": "e10e8662-5195-4f70-aef1-9e19abb31e24",
+                  "parentUUID": "f4708265-56e3-4cb4-92ba-f6d565d76e26",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "e10e8662-5195-4f70-aef1-9e19abb31e24"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "c77105ec-9267-4447-b201-4dac24b58058",
+              "title": "functions devide",
+              "fullFile": "/workdir/CICD_test/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "1 / 1 should be 1",
+                  "fullTitle": "Test Calculator functions devide 1 / 1 should be 1",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(1, calculate.devide(1, 1))",
+                  "err": {},
+                  "uuid": "50faee1a-6341-4f07-b54d-4115b8b888bb",
+                  "parentUUID": "c77105ec-9267-4447-b201-4dac24b58058",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "50faee1a-6341-4f07-b54d-4115b8b888bb"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "9033b01f-7b02-4c54-a435-79eb8432dbbc",
+              "title": "functions devide by zero",
+              "fullFile": "/workdir/CICD_test/test/test.js",
+              "file": "/test/test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "1 / 0 should be 0",
+                  "fullTitle": "Test Calculator functions devide by zero 1 / 0 should be 0",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(0.5, calculate.devide(1, 2))",
+                  "err": {},
+                  "uuid": "9bf8cbe2-0420-4ca7-b527-b5f4f598b71b",
+                  "parentUUID": "9033b01f-7b02-4c54-a435-79eb8432dbbc",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9bf8cbe2-0420-4ca7-b527-b5f4f598b71b"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.1.0"
+    }
+  }
+}
