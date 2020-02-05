@@ -8,7 +8,6 @@ jobs:
     container:
       image: node
     steps:
-    - uses: docker://node
     - name: Run a one-line script | Sorawit
       run: echo Hello, world!
     - name: Run a multi-line script | Sorawit
@@ -18,6 +17,8 @@ jobs:
     - name: Build Node JS
       run: npm build
     - name: Install Dependencies
-      run: npm install
+      run: | 
+        npm install
+        ls
     - name: Unit Test Node JS
       run: npm test
