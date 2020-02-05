@@ -16,6 +16,10 @@ jobs:
         echo test, and deploy your project.
     - name: Build Node JS
       run: npm build
+    - name: List of folder
+      run: ls
+    - name: Show package.json
+      run: cat package.json
     - name: Install Dependencies
       run: npm install
     - name: Unit Test Node JS
