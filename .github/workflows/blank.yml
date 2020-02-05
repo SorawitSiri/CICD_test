@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     container: 
       image: node
-      steps:
-      - uses: actions/unit-test-gurusquare@v1
-      - name: Run a one-line script | Sorawit
-        run: echo Hello, world!
-      - name: Run a multi-line script | Sorawit
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    steps:
+    - uses: actions/unit-test-gurusquare@v1
+    - name: Run a one-line script | Sorawit
+      run: echo Hello, world!
+    - name: Run a multi-line script | Sorawit
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
