@@ -6,10 +6,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    container: 
-      image: node
     steps:
-    - uses: actions/checkout@v2
+    - uses: node
     - name: Run a one-line script | Sorawit
       run: echo Hello, world!
     - name: Run a multi-line script | Sorawit
