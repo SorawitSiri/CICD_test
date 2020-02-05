@@ -7,7 +7,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: node
+    - uses: docker://node
     - name: Run a one-line script | Sorawit
       run: echo Hello, world!
     - name: Run a multi-line script | Sorawit
