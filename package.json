@@ -1,0 +1,28 @@
+{
+  "name": "CICD_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorawitSiri/CICD_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SorawitSiri/CICD_test/issues"
+  },
+  "homepage": "https://github.com/SorawitSiri/CICD_test#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "mochawesome": "^4.1.0",
+    "nyc": "^15.0.0"
+  }
+}
