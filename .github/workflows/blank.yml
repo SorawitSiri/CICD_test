@@ -5,12 +5,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: node
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node_version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node_version }}
     - name: Run a one-line script | Sorawit
       run: echo Hello, world!
     - name: Run a multi-line script | Sorawit
